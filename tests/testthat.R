@@ -1,5 +1,5 @@
 if (!("testthat" %in% rownames(installed.packages()))) {
-  install.packages("testthat")
+  install.packages("testthat", repos="http://r.adu.org.za/")
 }
 library(testthat)
 
